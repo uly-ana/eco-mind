@@ -1,0 +1,64 @@
+#header-img {
+  width: 40px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.text {
+  font-family: Kefa;
+  font-size: 25px;  
+  padding-left: 10px;
+}
+
+.container no-gutters{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("http://cdn-yotpo-images-production.yotpo.com/instagram/15/17953517305273815/standard_resolution.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lead {
+  padding-top: 160px;
+  padding-bottom: 30px;
+}
+
+.card-vertical {
+    margin: 16px 16px;
+}
+
+.card-body-vertical {
+    padding: 16px 16px 16px 16px;
+}
+
+#card-text-second {
+    font-size: 12px; 
+    padding-top: 8px; 
+    padding-bottom: 8px;
+}
+
+.card-body-vertical p {
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #hide {
+        display: none;
+    }
+  
+}
+  @media only screen and (min-device-width: 360px) and (max-width: 576px) {
+    
+  li .nav-link {
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+  }   
+}

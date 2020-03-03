@@ -4,6 +4,7 @@
   padding-left: 15px;
 }
 
+
 .text {
   font-family: Kefa;
   font-size: 25px;  
@@ -16,7 +17,8 @@
 }
 
 .jumbotron {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("http://cdn-yotpo-images-production.yotpo.com/instagram/15/17953517305273815/standard_resolution.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url("http://cdn-yotpo-images-production.yotpo.com/instagram/15/17953517305273815/standard_resolution.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,6 +46,14 @@
 
 .card-body-vertical p {
     font-size: 12px;
+}
+
+#video {
+  justify-content: center;
+}
+
+#form-content {
+  justify-content: center;
 }
 
 
